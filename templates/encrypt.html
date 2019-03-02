@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}
+Contact
+{% endblock %}
+{% block content %}
+<h1>Encryption Page</h1>
+
+<form method="POST" >
+    <input type="text" name="text" class="input-box" size="50">
+    <input type="submit">    
+</form>
+
+
+<h1>Encrypted Text:</h1>
+<input type="text" class="input-box" value="{{data}}" size="50" >
+{% endblock %}
